@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import React from "react";
 
@@ -9,7 +8,7 @@ export default function ProductItem({
 		<div className='card'>
 			<Link href={`/product/${slug}`}>
 				<a>
-					<img scr={image} alt={name} className='rounded shadow' />
+					<img src={image} alt={name} className='rounded shadow' />
 				</a>
 			</Link>
 			<div className='flex flex-col items-center justify-center p-5'>

@@ -3,7 +3,7 @@ const data = {
 		{
 			name: "New Shirt",
 			slug: "new shirt",
-			Category: "Shirt",
+			category: "Shirt",
 			image: "/images/shirt1.jpg",
 			price: 10,
 			brand: "Nike",
@@ -15,7 +15,7 @@ const data = {
 		{
 			name: "Fit Shirt",
 			slug: "fir shirt",
-			Category: "Shirts",
+			category: "Shirts",
 			image: "/images/shirt2.jpg",
 			price: 15,
 			brand: "Adidas",
@@ -27,7 +27,7 @@ const data = {
 		{
 			name: "Slim Shirt",
 			slug: "slim shirt",
-			Category: "Shirts",
+			category: "Shirts",
 			image: "/images/shirt3.jpg",
 			price: 12,
 			brand: "Raymond",
@@ -39,7 +39,7 @@ const data = {
 		{
 			name: "Golf Pants",
 			slug: "golf pants",
-			Category: "Pants",
+			category: "Pants",
 			image: "/images/pants1.jpg",
 			price: 35,
 			brand: "Oliver",
@@ -51,7 +51,7 @@ const data = {
 		{
 			name: "Fit Pants",
 			slug: "fit pants",
-			Category: "Pants",
+			category: "Pants",
 			image: "/images/pants2.jpg",
 			price: 55,
 			brand: "Zara",
@@ -63,8 +63,8 @@ const data = {
 		{
 			name: "Classic Pants",
 			slug: "classic pants",
-			Category: "Pants",
-			image: "/images/pant3.jpg",
+			category: "Pants",
+			image: "/images/pants3.jpg",
 			price: 65,
 			brand: "Casely",
 			rating: 2.4,
