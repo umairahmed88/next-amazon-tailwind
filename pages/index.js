@@ -18,7 +18,7 @@ export default function Home({ products }) {
 
 		if (data.countInStock < quantity) {
 			return toast.error(
-				"Sory! Maximum limit of product in stock is exceeded."
+				"Sorry! Maximum limit of product in stock is exceeded."
 			);
 		}
 

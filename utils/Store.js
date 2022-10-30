@@ -33,7 +33,7 @@ function reducer(state, action) {
 
 			return { ...state, cart: { ...state.cart, cartItems } };
 		}
-		case "CART_REMOVE":
+		case "CART_RESET":
 			return {
 				...state,
 				cart: {
@@ -42,6 +42,9 @@ function reducer(state, action) {
 					paymentMethod: "",
 				},
 			};
+
+		case "CLEAR_CART_ITEMS":
+			return { ...state, cart: { ...state.cart, cartItems: [] } };
 
 		case "SAVE_SHIPPING_ADDRESS":
 			return {
